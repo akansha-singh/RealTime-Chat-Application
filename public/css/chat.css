@@ -7,8 +7,24 @@
 body, html {
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
+	background-color: #F0F0F0;
 }
 
 .chatdiv{
-    margin-top: 70px;
+	margin-top: 70px;
+	background-color: #9370DB;
+}
+
+.sidediv{
+	background-color: #B0C4DE;
+}
+
+.divscroll{
+	direction: ltr;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	background-color: #ffffff;
+	overflow-y: scroll;
+	height: 400px;
 }
