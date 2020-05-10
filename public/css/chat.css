@@ -28,3 +28,17 @@ body, html {
 	overflow-y: scroll;
 	height: 400px;
 }
+
+.sidescroll{
+	direction: ltr;
+	
+	overflow-y: scroll;
+	height: 400px;
+}
+
+.message {
+	padding: 10px;
+	margin: 15px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+}
